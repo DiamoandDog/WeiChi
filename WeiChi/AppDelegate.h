@@ -8,10 +8,17 @@
 
 #import <UIKit/UIKit.h>
 
-@interface AppDelegate : UIResponder <UIApplicationDelegate>
+#import "SinaWeibo.h"
+//@class SinaWeibo;
+//@class HomeViewController;
+@interface AppDelegate : UIResponder <UIApplicationDelegate,SinaWeiboDelegate>
 
+//@property (strong, nonatomic) UIWindow *window;
+
+
+@property (strong, nonatomic) SinaWeibo *sinaweibo;
 @property (strong, nonatomic) UIWindow *window;
 
-
+//@property (strong, nonatomic) HomeViewController *viewController;
 @end
 

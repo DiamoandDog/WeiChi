@@ -7,7 +7,8 @@
 //
 
 #import "ViewController.h"
-
+#import "SinaWeibo.h"
+#import "HomeViewController.h"
 @interface ViewController ()
 
 @end
